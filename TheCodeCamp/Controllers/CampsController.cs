@@ -11,6 +11,7 @@ using TheCodeCamp.Models;
 namespace TheCodeCamp.Controllers
 {
   [RoutePrefix("api/camps")]
+  // This is my camp controller 
   public class CampsController : ApiController
   {
     private readonly ICampRepository _repository;
